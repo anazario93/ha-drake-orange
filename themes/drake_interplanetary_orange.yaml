@@ -1,6 +1,6 @@
 # Drake Interplanetary Orange - Home Assistant Theme
 # Inspired by the rugged, utilitarian cockpit MFDs of Drake Interplanetary.
-# Cockpit-brown background, burnt-orange typography and controls, amber highlights.
+# Cockpit-brown background, burnt-orange typography and controls, industrial-orange buttons.
 #
 # Typography: Oxanium
 # Add Oxanium as a dashboard font resource if you want the intended display typography.
@@ -62,15 +62,18 @@ Drake Interplanetary Orange:
       paper-slider-knob-color: "#F0A43A"
       paper-slider-container-color: "#40372B"
 
+      # Buttons - industrial orange
+      mdc-theme-primary: "#D47725"
+      mdc-theme-on-primary: "#0D0D0B"
+      paper-button-ink-color: "#D47725"
+
       # Inputs and dialogs
       input-fill-color: "#171512"
       input-ink-color: "#D47725"
       input-label-ink-color: "#F0A43A"
       input-idle-line-color: "#A94F16"
       input-hover-line-color: "#D47725"
-      mdc-theme-primary: "#D47725"
       mdc-theme-secondary: "#F0A43A"
       mdc-theme-surface: "#24201A"
       mdc-theme-on-surface: "#D47725"
       mdc-theme-background: "#382719"
-      mdc-theme-on-primary: "#0D0D0B"
