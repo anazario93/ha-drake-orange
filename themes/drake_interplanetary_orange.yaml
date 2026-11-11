@@ -1,0 +1,76 @@
+# Drake Interplanetary Orange - Home Assistant Theme
+# Inspired by the rugged, utilitarian cockpit MFDs of Drake Interplanetary.
+# Warm charcoal surfaces, burnt orange controls, amber status accents, and ivory text.
+#
+# Typography: Oxanium
+# Add Oxanium as a dashboard font resource if you want the intended display typography.
+
+Drake Interplanetary Orange:
+  modes:
+    dark:
+
+      # Typography
+      primary-font-family: "'Oxanium', sans-serif"
+      ha-font-family-body: "var(--primary-font-family)"
+      ha-font-family-heading: "var(--primary-font-family)"
+      ha-font-family-code: "var(--primary-font-family)"
+      ha-font-family-longform: "var(--primary-font-family)"
+      ha-card-header-font-family: "var(--primary-font-family)"
+
+      # Core palette
+      primary-color: "#D47725"
+      accent-color: "#F0A43A"
+      primary-background-color: "#0D0D0B"
+      secondary-background-color: "#171512"
+      card-background-color: "#24201A"
+      ha-card-background: "#24201A"
+      ha-card-border-color: "#51402D"
+      ha-card-border-width: "1px"
+      ha-card-border-radius: "6px"
+      ha-card-box-shadow: "none"
+
+      # Text
+      primary-text-color: "#E8E0D2"
+      secondary-text-color: "#A99A83"
+      text-primary-color: "#E8E0D2"
+      disabled-text-color: "#766B5B"
+
+      # Header and navigation
+      app-header-background-color: "#171512"
+      app-header-text-color: "#E8E0D2"
+      app-header-selection-bar-color: "#F0A43A"
+      sidebar-background-color: "#11100E"
+      sidebar-text-color: "#A99A83"
+      sidebar-selected-text-color: "#F0A43A"
+      sidebar-selected-icon-color: "#F0A43A"
+
+      # Dividers and icons
+      divider-color: "rgba(169, 154, 131, 0.18)"
+      outline-color: "#51402D"
+      state-icon-color: "#A99A83"
+      state-icon-active-color: "#F0A43A"
+      state-light-on-color: "#F0A43A"
+      paper-item-icon-color: "#A99A83"
+      paper-item-icon-active-color: "#F0A43A"
+
+      # Controls
+      switch-checked-button-color: "#D47725"
+      switch-checked-track-color: "rgba(212, 119, 37, 0.48)"
+      switch-unchecked-button-color: "#A99A83"
+      switch-unchecked-track-color: "#40372B"
+      paper-slider-active-color: "#D47725"
+      paper-slider-knob-color: "#F0A43A"
+      paper-slider-container-color: "#40372B"
+
+      # Inputs and dialogs
+      input-fill-color: "#171512"
+      input-ink-color: "#E8E0D2"
+      input-label-ink-color: "#A99A83"
+      input-idle-line-color: "#766B5B"
+      input-hover-line-color: "#D47725"
+      mdc-theme-primary: "#D47725"
+      mdc-theme-secondary: "#F0A43A"
+      mdc-theme-surface: "#24201A"
+      mdc-theme-on-surface: "#E8E0D2"
+      mdc-theme-background: "#0D0D0B"
+      mdc-theme-on-primary: "#0D0D0B"
