@@ -1,6 +1,6 @@
 # Drake Interplanetary Orange - Home Assistant Theme
 # Inspired by the rugged, utilitarian cockpit MFDs of Drake Interplanetary.
-# Warm cockpit-brown background, burnt orange controls, amber status accents, and ivory text.
+# Cockpit-brown background, burnt-orange typography and controls, amber highlights.
 #
 # Typography: Oxanium
 # Add Oxanium as a dashboard font resource if you want the intended display typography.
@@ -29,34 +29,34 @@ Drake Interplanetary Orange:
       ha-card-border-radius: "6px"
       ha-card-box-shadow: "none"
 
-      # Text
-      primary-text-color: "#E8E0D2"
-      secondary-text-color: "#A99A83"
-      text-primary-color: "#E8E0D2"
-      disabled-text-color: "#766B5B"
+      # Text - burnt orange
+      primary-text-color: "#D47725"
+      secondary-text-color: "#F0A43A"
+      text-primary-color: "#D47725"
+      disabled-text-color: "#A94F16"
 
       # Header and navigation
       app-header-background-color: "#171512"
-      app-header-text-color: "#E8E0D2"
+      app-header-text-color: "#D47725"
       app-header-selection-bar-color: "#F0A43A"
       sidebar-background-color: "#11100E"
-      sidebar-text-color: "#A99A83"
+      sidebar-text-color: "#D47725"
       sidebar-selected-text-color: "#F0A43A"
       sidebar-selected-icon-color: "#F0A43A"
 
       # Dividers and icons
-      divider-color: "rgba(169, 154, 131, 0.18)"
+      divider-color: "rgba(212, 119, 37, 0.20)"
       outline-color: "#51402D"
-      state-icon-color: "#A99A83"
+      state-icon-color: "#D47725"
       state-icon-active-color: "#F0A43A"
       state-light-on-color: "#F0A43A"
-      paper-item-icon-color: "#A99A83"
+      paper-item-icon-color: "#D47725"
       paper-item-icon-active-color: "#F0A43A"
 
       # Controls
       switch-checked-button-color: "#D47725"
       switch-checked-track-color: "rgba(212, 119, 37, 0.48)"
-      switch-unchecked-button-color: "#A99A83"
+      switch-unchecked-button-color: "#A94F16"
       switch-unchecked-track-color: "#40372B"
       paper-slider-active-color: "#D47725"
       paper-slider-knob-color: "#F0A43A"
@@ -64,13 +64,13 @@ Drake Interplanetary Orange:
 
       # Inputs and dialogs
       input-fill-color: "#171512"
-      input-ink-color: "#E8E0D2"
-      input-label-ink-color: "#A99A83"
-      input-idle-line-color: "#766B5B"
+      input-ink-color: "#D47725"
+      input-label-ink-color: "#F0A43A"
+      input-idle-line-color: "#A94F16"
       input-hover-line-color: "#D47725"
       mdc-theme-primary: "#D47725"
       mdc-theme-secondary: "#F0A43A"
       mdc-theme-surface: "#24201A"
-      mdc-theme-on-surface: "#E8E0D2"
+      mdc-theme-on-surface: "#D47725"
       mdc-theme-background: "#382719"
       mdc-theme-on-primary: "#0D0D0B"
