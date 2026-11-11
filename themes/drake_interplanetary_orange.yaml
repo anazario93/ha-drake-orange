@@ -1,6 +1,6 @@
 # Drake Interplanetary Orange - Home Assistant Theme
 # Inspired by the rugged, utilitarian cockpit MFDs of Drake Interplanetary.
-# Cockpit-brown background, industrial-orange typography and burnt-orange buttons.
+# Cockpit-brown background, industrial-orange typography and vivid orange buttons.
 #
 # Typography: Oxanium
 # Add Oxanium as a dashboard font resource if you want the intended display typography.
@@ -18,7 +18,7 @@ Drake Interplanetary Orange:
       ha-card-header-font-family: "var(--primary-font-family)"
 
       # Core palette
-      primary-color: "#A94F16"
+      primary-color: "#F28C28"
       accent-color: "#F0A43A"
       primary-background-color: "#382719"
       secondary-background-color: "#171512"
@@ -54,18 +54,18 @@ Drake Interplanetary Orange:
       paper-item-icon-active-color: "#F0A43A"
 
       # Controls
-      switch-checked-button-color: "#A94F16"
-      switch-checked-track-color: "rgba(169, 79, 22, 0.48)"
+      switch-checked-button-color: "#F28C28"
+      switch-checked-track-color: "rgba(242, 140, 40, 0.48)"
       switch-unchecked-button-color: "#766B5B"
       switch-unchecked-track-color: "#40372B"
-      paper-slider-active-color: "#A94F16"
+      paper-slider-active-color: "#F28C28"
       paper-slider-knob-color: "#F0A43A"
       paper-slider-container-color: "#40372B"
 
-      # Buttons - burnt orange
-      mdc-theme-primary: "#A94F16"
+      # Buttons - vivid industrial orange
+      mdc-theme-primary: "#F28C28"
       mdc-theme-on-primary: "#0D0D0B"
-      paper-button-ink-color: "#A94F16"
+      paper-button-ink-color: "#F28C28"
 
       # Inputs and dialogs
       input-fill-color: "#171512"
