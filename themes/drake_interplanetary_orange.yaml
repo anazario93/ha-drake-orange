@@ -21,6 +21,7 @@ Drake Interplanetary Orange:
       primary-color: "#F28C28"
       accent-color: "#F0A43A"
       primary-background-color: "#382719"
+      lovelace-background: 'center / cover no-repeat fixed url("https://raw.githubusercontent.com/anazario93/ha-drake-orange/main/images/drake_amber_mfd.jpg.PNG")'
       secondary-background-color: "#171512"
       card-background-color: "#24201A"
       ha-card-background: "#24201A"
